@@ -1,0 +1,230 @@
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar ul li a:active {
+    color: black;
+}
+
+.navbar ul li a {
+    color: rgba(0, 0, 0, 0.703);
+}
+
+.navbar ul li a:hover {
+    color: white;
+
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    cursor: default;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar .navbar-toggler {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+   border: none;
+   
+}
+
+.navbar .navbar-toggler {
+    box-shadow: none;
+}
+
+
+.navbar .navbar-toggler:focus {
+    color: white;
+  
+}
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-left: 20%;
+
+}
+
+.promo-title2 {
+    margin-left: 20%;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px 20px 20px 155px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+.services {
+    padding: 80px 0;
+
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #7b1798;
+    height: 4px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 8% 0;
+
+}
+
+/* .net-img{
+    margin-left: 150px;
+} */
+#about-us ul li::first-letter {
+    font-size:1rem; /* Example: make the first letter 1.5 times larger */
+    font-weight: bold; /* Example: make the first letter bold */
+    color: #000000; /* Example: change the first letter color to red */
+}
+
+#about-us ul li {
+    margin: 10px 0;
+
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+
+.test {
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.test img {
+    height: 60px;
+    width: 60px;
+}
+
+.social-media {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box p {
+    color: white;
+}
+
+.footer-box .fa,
+.fa-solid {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.Copyright {
+    color: #f8f9fa;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
